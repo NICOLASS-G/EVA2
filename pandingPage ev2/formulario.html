@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formulario.css" rel="stylesheet"/> <!--aca llamamos la carpeta-->
+    
+</head>
+<body>
+
+    <div class="cabecera">
+        <h1 class="fuente_times">Concertar Cita</h1>
+        <div class="menu">
+            <a href="original.html">Home</a>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <h2>Rellene el siguiente Formulario</h2>
+        <form id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="usuario">Nombre</label><br>
+                <input type="text" id="usuario" name="usuario" placeholder="Ingrese su Nombre" required="True"/>
+            </div>
+            <div class="elemento">
+                <label for="apellido">Apellido</label><br>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido" required="True"/>
+            </div>
+            <div class="elemento">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Ingrese su Correo" required="True"/>
+            </div>
+            <div class="elemento">
+                <label for="barberos">Seleccione un Barbero</label><br>
+                <select id="barberos" name="barberos">
+                    <option value="Nova Herrera">Nova Herrera</option>
+                    <option value="Axel Fierro">Axel Fierro</option>
+                    <option value="Luna Valdez">Luna Valdez</option>
+                    <option value="Leon Cruz">Leon Cruz</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button> 
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

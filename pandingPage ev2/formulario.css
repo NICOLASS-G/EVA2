@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; 
+}
+.cabecera {
+    background: url(imagenes/cabecera.jpg) no-repeat center/cover; /*agregamos fondo la imagen*/
+    padding: 20px 0; 
+    text-align: center;
+}
+/*
+.cabecera h1 {
+    color: gold;
+}*/
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+color: black;
+}
+/*a:visited{
+    olor: #cc883c;
+    }*/
+a:hover{
+    color: gold;
+}
+.contenedor {
+    margin: 50px auto;
+    width: 450px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.contenedor h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.contenedor .elemento label {
+    color: white;
+}
+.contenedor .elemento input, .contenedor .elemento select {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+.contenedor .elemento input[type="submit"], .contenedor .elemento button[type="submit"] {
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+option{
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color:#04151b;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 50px;
+}

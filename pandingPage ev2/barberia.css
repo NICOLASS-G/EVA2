@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+}
+
+.menu{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*a:visited{
+    color: #cc883c;
+}*/
+a:hover{
+    color: gold;
+}
+
+.menucontenedor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu:hover{
+    color: #7c5208;
+}
+
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color:#7c5208;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #04151b;
+    padding: 20px;
+    width: auto;
+    height: auto; 
+}
+
+.img-historia{
+    width: 30%; 
+    height: auto; 
+    opacity: 0.4;
+    float: left; 
+}
+
+.parrafo-derecho{
+    width: 65%; 
+    color: white;
+    padding: 20px; 
+}
+
+p{
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.servicios{
+    background-color: #e6eaff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.profesional{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.profesional img{
+    width: 120%;
+    opacity: 0.5;
+    border-radius: 10%;
+}
+
+.descripcion{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #1d0033;
+}
+
+.profesional img:hover{
+    opacity: 1;
+}
+
+.imagen-contenedora{
+    position: relative;
+}
+
+.imagen-cabecera9{
+    width: 100%;
+    height: 200px;
+    display: block;
+    opacity: 0.9;
+}
+
+.texteo{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.texteo-imagen{
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
+}
+
+
+.galeria{
+    background-color: #04151b;
+    padding: 20px;
+    text-align: center; 
+}
+
+.imagenes-galeria{
+    width: 100px; 
+    margin: 2px; 
+    display: inline-block; 
+    border-radius: 20%;
+}
+
+
+.citacion {
+    background-color: #cc883c;
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.descuento{
+    font-family: cursive;
+    color: #e7fef7;
+    text-align: center;
+    font-size: 10px;
+}
+
+.boton {
+    background-color: black;
+    border: 1px solid black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1px 2px; 
+    cursor: pointer; 
+    display: inline-block; 
+    font-size: 10px; 
+}
+
+.contacto{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;  
+    text-align: left;
+}
+
+.direccion{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;  
+    text-align: right;
+}
+.horario{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;
+    text-align: end;
+}
+
+span{
+    color: gold;
+    font-family: cursive;
+}
+
+em{
+    color: black;
+}
+
+em:hover{
+    color:#ff8406;
+}

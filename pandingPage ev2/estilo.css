@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+    }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; 
+    }
+
+    a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+/*a:visited{
+    color: #cc883c;
+}*/
+a:hover{
+    color: gold;
+}
+
+
+.cabecera {
+    background: url(imagenes/cabecera10.jpg) no-repeat center/cover; 
+    padding: 50px; 
+    text-align: center;
+    opacity: 1;
+    }
+
+.menu{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    }
+h1{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #cc883c;
+    padding: 100px;
+    width: auto;
+    height: auto; 
+}
+
+.img-historia{
+    width: 35%; 
+    height: auto; 
+    opacity: 1;
+    float: left; 
+    border-radius: 20px;
+}
+
+
+.parrafo-derecho{
+    width: 65%; 
+    color: black;
+    padding: 40px; 
+}
+
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 10px;
+}
+
+.galeria{
+    background-color: #04151b;
+    padding: 20px;
+    text-align: center; 
+}
+
+.imagenes-galeria{
+    width: 100px; 
+    margin: 2px; 
+    display: inline-block; 
+    border-radius: 20%;
+}
+
+h1{
+    text-align: center;
+    color:#7c5208;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.contacto{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;  
+    text-align: left;
+}
+
+.direccion{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;  
+    text-align: right;
+}
+.horario{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+    color: white;
+    text-align: end;
+}
+
+span{
+    color: gold;
+    font-family: cursive;
+}
